@@ -30,5 +30,9 @@ Switched to the correct approach: traverse both lists simultaneously, digit by d
 ### 9. Palindrome number
 **Approach:** I first convert integer into string then used *Two pointer* approach setting low pointer at the zeroth index and high pointer at the last index.
 
+
+### 14. Longest Common Prefix
+**Approach: ** Iterate through each character position of the first string and compare it with the corresponding character in all other strings. Stop at the first mismatch and return the common prefix built so far.
+
 ## Folder Structure
 Each folder is named `<number>-<problem-name>` and contains a `solution.cpp` file with my accepted LeetCode solution.
