@@ -32,7 +32,15 @@ Switched to the correct approach: traverse both lists simultaneously, digit by d
 
 
 ### 14. Longest Common Prefix
-**Approach: ** Iterate through each character position of the first string and compare it with the corresponding character in all other strings. Stop at the first mismatch and return the common prefix built so far.
+**Approach:** Iterate through each character position of the first string and compare it with the corresponding character in all other strings. Stop at the first mismatch and return the common prefix built so far.
+
+### 21. Merge Two Sorted Lists
+**Approach:** Used a dummy node (`finalList`) to build the resulting merged list, with a separate `finalHead` pointer that moves forward as nodes are added, this avoids losing the head reference.
+Created two pointers, `head1` and `head2`, to traverse `list1` and `list2` respectively. At each step, compared the current values of `head1` and `head2` and copied the smaller value into `finalList`, advancing the corresponding pointer. Handled the case where both values are equal by copying both.
+Once one list is fully traversed, the remaining nodes of the other list (if any) are appended directly using two separate `while` loops, since they're already sorted.
+Finally, returned `finalList`, which holds the head of the merged sorted list.
+- **Time Complexity:** O(n + m) where n, m are the lengths of the two lists
+- **Space Complexity:** O(1) additional space (excluding the output list)
 
 ## Folder Structure
 Each folder is named `<number>-<problem-name>` and contains a `solution.cpp` file with my accepted LeetCode solution.
