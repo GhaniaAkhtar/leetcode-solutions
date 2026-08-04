@@ -26,8 +26,8 @@ Switched to the correct approach: traverse both lists simultaneously, digit by d
 - Time Complexity: O(max(n, m)) where n, m are the lengths of the two lists
 - Space Complexity: O(max(n, m)) for the result list
 
-  ### 9.Palindrome number
-  **Approach:** I first convert integer into string then used *Two pointer* approach setting low pointer at the zeroth index and high pointer at the last index.
+### 9.Palindrome number
+**Approach:** I first convert integer into string then used *Two pointer* approach setting low pointer at the zeroth index and high pointer at the last index.
 
 ## Folder Structure
 Each folder is named `<number>-<problem-name>` and contains a `solution.cpp` file with my accepted LeetCode solution.
