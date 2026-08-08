@@ -42,5 +42,9 @@ Finally, returned `finalList`, which holds the head of the merged sorted list.
 - **Time Complexity:** O(n + m) where n, m are the lengths of the two lists
 - **Space Complexity:** O(1) additional space (excluding the output list)
 
+### 1929. Concatenation of Array
+**Approach:** Consider the resulting array in to two parts. Copy the given array as it is in first half and meanwhile placing the same elements at (i+n)th index of the resulting array 
+
+
 ## Folder Structure
 Each folder is named `<number>-<problem-name>` and contains a `solution.cpp` file with my accepted LeetCode solution.
