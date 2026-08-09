@@ -64,5 +64,8 @@ Finally, returned `finalList`, which holds the head of the merged sorted list.
 ### 20. Valid Parentheses
 **Approach:** Uses a stack to track opening brackets. Push each opening bracket in the stack, if closing bracket is found, pop the most recent opening bracket from the stack and match the compatibility, if the opening bracket do not have the same closing bracket then returned false else if all are matched and stack is empty at the end then returned true.
 
+### 26. Remove Duplicates from Sorted Array
+**Approach:** Uses two pointers: one moves through the array checking each number, the other keeps track of where the last unique number was placed; duplicates get skipped and only unique numbers stay at the front.
+
 ## Folder Structure
 Each folder is named `<number>-<problem-name>` and contains a `solution.cpp` file with my accepted LeetCode solution.
