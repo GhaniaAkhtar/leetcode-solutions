@@ -53,5 +53,8 @@ Finally, returned `finalList`, which holds the head of the merged sorted list.
 ### 520. Detect Capital 
 **Approach:** Checks if a word's capitalization is correct: either all letters uppercase, all lowercase, or only the first letter capitalized. Solved using three helper functions (all_small, all_capital, first_capital) that each validate one pattern, combined with OR logic in detectCapitalUse.
 
+### 977. Squares Of A Sorted Array 
+**Approach:** Squares each number in the sorted array, then sorts the squared values to get the final non-decreasing result.
+
 ## Folder Structure
 Each folder is named `<number>-<problem-name>` and contains a `solution.cpp` file with my accepted LeetCode solution.
