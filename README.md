@@ -46,5 +46,8 @@ Finally, returned `finalList`, which holds the head of the merged sorted list.
 **Approach:** Consider the resulting array in to two parts. Copy the given array as it is in first half and meanwhile placing the same elements at (i+n)th index of the resulting array 
 
 
+### 2149. Rearrange Array Elements by Sign
+**Approach:** Used two pointer approach. Initialized a vector<int>res of the size of vector<int>nums. Set pointer i to 0 and pointer j to 1. If nums[k]th index is positive, copied it to res[i]th index and set i=i+2 else if nums[k]th index is negative, copied it to res[j]th index and set j=j+2;
+
 ## Folder Structure
 Each folder is named `<number>-<problem-name>` and contains a `solution.cpp` file with my accepted LeetCode solution.
