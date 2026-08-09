@@ -56,5 +56,10 @@ Finally, returned `finalList`, which holds the head of the merged sorted list.
 ### 977. Squares Of A Sorted Array 
 **Approach:** Squares each number in the sorted array, then sorts the squared values to get the final non-decreasing result.
 
+
+### 3658. GCD of Odd and Even Sum
+**Approach:** GCD of Odd and Even Sums: Since sumOdd = n² and sumEven = n²+n, both are multiples of n, so their GCD always equals n.
+
+
 ## Folder Structure
 Each folder is named `<number>-<problem-name>` and contains a `solution.cpp` file with my accepted LeetCode solution.
