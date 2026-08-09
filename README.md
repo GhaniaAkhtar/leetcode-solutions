@@ -61,5 +61,8 @@ Finally, returned `finalList`, which holds the head of the merged sorted list.
 **Approach:** GCD of Odd and Even Sums: Since sumOdd = n² and sumEven = n²+n, both are multiples of n, so their GCD always equals n.
 
 
+### 20. Valid Parentheses
+**Approach:** Uses a stack to track opening brackets. Push each opening bracket in the stack, if closing bracket is found, pop the most recent opening bracket from the stack and match the compatibility, if the opening bracket do not have the same closing bracket then returned false else if all are matched and stack is empty at the end then returned true.
+
 ## Folder Structure
 Each folder is named `<number>-<problem-name>` and contains a `solution.cpp` file with my accepted LeetCode solution.
