@@ -67,5 +67,10 @@ Finally, returned `finalList`, which holds the head of the merged sorted list.
 ### 26. Remove Duplicates from Sorted Array
 **Approach:** Uses two pointers: one moves through the array checking each number, the other keeps track of where the last unique number was placed; duplicates get skipped and only unique numbers stay at the front.
 
+
+### 58. Length of Last Word
+**Approach:** skips trailing spaces, then counts characters of the last word by scanning backwards.
+
+
 ## Folder Structure
 Each folder is named `<number>-<problem-name>` and contains a `solution.cpp` file with my accepted LeetCode solution.
