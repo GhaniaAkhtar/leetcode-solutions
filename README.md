@@ -75,5 +75,10 @@ Finally, returned `finalList`, which holds the head of the merged sorted list.
 ### 485. Max Consecutive Ones
 **Approach:** used two integers, count, that counts the number of ones in a streak, which is set to zero as we encounter 0, second max_count, that keep the track of max number of count streak. If count is greater than max_count, max_count stores the value of count. At the end returned max_count. 
 
+
+### 3870. Count Commas in Range
+**Approach:** for each power-of-1000 threshold, counts how many numbers in [1, n] reach it, since each such number contributes one comma at that position
+
+
 ## Folder Structure
 Each folder is named `<number>-<problem-name>` and contains a `solution.cpp` file with my accepted LeetCode solution.
