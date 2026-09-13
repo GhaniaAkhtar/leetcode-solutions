@@ -77,8 +77,10 @@ Finally, returned `finalList`, which holds the head of the merged sorted list.
 
 
 ### 3870. Count Commas in Range
-**Approach:** for each power-of-1000 threshold, counts how many numbers in [1, n] reach it, since each such number contributes one comma at that position
+**Approach:** For each power-of-1000 threshold, counts how many numbers in [1, n] reach it, since each such number contributes one comma at that position
 
+### 3871. Count Commas in Range II
+**Approach:** For each power-of-1000 threshold, counts how many numbers in [1, n] reach it, since each such number contributes one comma at that position.
 
 ## Folder Structure
 Each folder is named `<number>-<problem-name>` and contains a `solution.cpp` file with my accepted LeetCode solution.
